@@ -1,0 +1,60 @@
+body {
+    /* background-image: url("master.jpg"); */
+    background-size: cover;
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+}   
+
+div.hidden_overflow{
+    float: left;
+    background-color: #eae;
+    display: inline;
+    width: 10vw;
+    height: 10vh;
+    border: 1px dotted black;
+    overflow: hidden;
+}
+
+div.visible_overflow{
+    float: left;
+    background-color: rgb(184, 143, 251);
+    display: inline;
+    width: 10vw;
+    height: 10vh;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    border: 1px dotted black;
+    overflow: visible;
+}
+
+
+div.scroll_overflow{
+    float: left;
+    background-color: rgb(251, 251, 2);
+    display: inline;
+    width: 10vw;
+    height: 10vh;
+    margin-left: 15vw;
+    border: 1px dotted black;
+    overflow: scroll;
+}
+
+div.auto_overflow{
+    float: right;
+    background-color: rgb(16, 245, 0);
+    display: inline;
+    width: 10vw;
+    height: 10vh;
+    border: 1px dotted black;
+    overflow: auto;
+}
+
+
+/* Есть св-во clear, которое можно использовать, если, например,
+   элементы накладываются друг на друга 
+none - Позволяет использовать плавающие элементы с обеих сторон. Это значение по умолчанию
+left - С левой стороны не допускаются плавающие элементы
+right- С правой стороны не допускаются плавающие элементы
+both - Плавающие элементы не допускаются ни слева, ни справа
+inherit - элемент наследует значение Clear родительского элемента*/
+
